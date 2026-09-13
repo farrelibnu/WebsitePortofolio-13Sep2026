@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>
+            My Portofolio
+        </title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Navbar & Logo -->
+    <header class="main-header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo Website">
+        </div>
+        <nav class="main-navbar">
+            <a href="#home" class="navbar">Home</a>
+            <a href="#profile" class="navbar">My Profile</a>
+            <a href="#my-inspiration" class="navbar">My Inspiration</a>
+            <a href="#message" class="navbar">Message Us</a>
+        </nav>
+    </header>
+        <hr>
+        <!-- Home -->
+        <section id="home">
+            <div class="home-text">
+                <h1>Hi, I'm <b>Mukhammad Farrel Ibnu Fadillah</b></h1>
+                <p>Selamat datang di website portofolio saya. <br> Website ini dibuat untuk menampilkan informasi tentang saya, skill yang saya miliki, dan juga inspirasi saya dalam belajar coding.</p>
+            </div>
+            
+            <div class="home-photo">
+                <img src="foto-profil.jpg" alt="Foto Profil" class="profile-photo">
+            </div>
+            
+            
+        </section>
+        <hr>
+        <!-- Profile -->
+        <section id="profile">
+
+            <h2>My Profile</h2>
+            <div class="profile-container">
+                
+                <div class="profile-info">
+                <!-- Information Profile -->
+                <h3>Personal Life</h3>
+                    <p class="description">
+                        Nama saya adalah <b>Mukhammad Farrel Ibnu Fadillah</b>. <br> Saya adalah mahasiswa yang tertarik pada dunia teknologi,
+                    khusus nya pada perkembangan web dan aplikasi. Awal mula saya belajar coding karena 
+                    banyak orang mengatakan bahwa bidang ini prospek nya besar di masa depan sehingga saya mulai mempelajari bidang ini dari SMA. 
+                    Saya belajar coding secara otodidak melalui Youtube dan beberapa website belajar coding. Saya juga mengikuti beberapa kursus online untuk memperdalam pengetahuan saya tentang coding.
+                </p><br>      
+                <!-- Skill -->
+                <h4>Skill Dasar</h4>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript Dasar</li>
+                    <li>Basic Editing Video & Photo</li>
+                </ul><br>
+                
+                <h4 class="social-links">Social Media</h4>
+                    <p><a href="https://www.instagram.com/farrel_nv/">Instagram</a></p>
+                    <p><a href="https://github.com/farrelibnu">Github</a></p>
+        </section>
+        <hr>
+        <!-- My Inspiration -->
+        <section id="my-inspiration">
+            <h4>My Inspiration</h4>
+            <p>Saya belajar banyak tentang coding dari mereka</p>
+            <div class="photo-item">
+                <img src="foto-agung-hapsah.jpg" alt="Agung Hapsah">
+                <p class="name-inspiration">Agung Hapsah</p>
+                <span class="see-channel"><a href="https://www.youtube.com/@web_dev_id">Lihat</a></span>
+            </div>
+            <div class="photo-item">
+                <img src="foto-deaafrizal.jpg" alt="Dea Afrizal">
+                <p class="name-inspiration">Dea Afrizal</p>
+                <span class="see-channel"><a href="https://www.youtube.com/@deaafrizal">Lihat</a></span>
+            </div>
+            <div class="photo-item">
+                <img src="foto-mosh.jpg" alt="Coding With Mosh">
+                <p class="name-inspiration">Coding With Mosh</p>
+                <span class="see-channel"><a href="https://www.youtube.com/@programmingwithmosh">Lihat</a></span>
+            </div>
+        </section>
+        <hr>
+        <!-- Message Form -->
+        <section id="message">
+            <h2>Message Us</h2>
+
+            <form id="form-list">
+                <label>Nama :</label>
+                <input type="text" id="nama" required><br>
+
+                <label>Tanggal Lahir :</label>
+                <input type="date" id="tanggal-lahir" required><br>
+
+                <label>Jenis Kelamin :</label>
+                <input type="radio" name="jenis-kelamin" value="Laki-Laki" required> Laki-Laki
+                <input type="radio" name="jenis-kelamin" value="Perempuan"> Perempuan
+                <br>
+
+                <label>Pesan :</label><br>
+                <textarea id="pesan" rows="5" cols="30" placeholder="Tulis pesan anda disini..." required></textarea><br>
+
+                <button type="submit">Send</button>
+            </form>
+
+            <!-- Output -->
+            <div class="output-box">
+                <p><b>Current time</b> : <span id="outTime">-</span></p>
+                <p><b>Nama</b> : <span id="outNama">-</span></p>
+                <p><b>Tanggal Lahir</b> : <span id="outTanggal">-</span></p>
+                <p><b>Jenis Kelamin</b> : <span id="outGender">-</span></p>
+                <p><b>Pesan</b> : <span id="outPesan">-</span></p>
+            </div>
+
+        </section>
+        <footer>
+            <div class="div-footer"></div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
